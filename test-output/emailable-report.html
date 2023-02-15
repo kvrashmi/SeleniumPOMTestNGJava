@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">LoginPageValidation</th></tr>
+<tr><td><a href="#t0">LoginFunctionality</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">7,874</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">LoginPageValidation</th></tr></tbody><tbody id="t0"><tr><th colspan="4">LoginFunctionality &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">tests.LoginPageTestFirefox</td><td><a href="#m0">tearDown</a></td><td rowspan="1">1676477990783</td><td rowspan="1">779</td></tr><tr><th colspan="4">LoginFunctionality &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">tests.LoginPageTestChrome</td><td><a href="#m1">launchLandingPage</a></td><td rowspan="1">1676477986523</td><td rowspan="1">711</td></tr><tr class="passedeven"><td><a href="#m2">setUpChrome</a></td><td rowspan="1">1676477983746</td><td rowspan="1">2771</td></tr><tr class="passedeven"><td><a href="#m3">testLoginPage</a></td><td rowspan="1">1676477987236</td><td rowspan="1">817</td></tr><tr class="passedodd"><td rowspan="3">tests.LoginPageTestFirefox</td><td><a href="#m4">launchLandingPage</a></td><td rowspan="1">1676477988664</td><td rowspan="1">1025</td></tr><tr class="passedodd"><td><a href="#m5">setUpFirefox</a></td><td rowspan="1">1676477983746</td><td rowspan="1">4916</td></tr><tr class="passedodd"><td><a href="#m6">testLoginPage</a></td><td rowspan="1">1676477989691</td><td rowspan="1">944</td></tr></tbody>
+</table>
+<h2>LoginFunctionality</h2><h3 id="m0">tests.LoginPageTestFirefox#tearDown</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Rashmis-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:1c37:1185:e694:ace9%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.6.2&apos;, java.version: &apos;18.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230104165113, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 21.6.0, moz:processID: 1638, moz:profile: /var/folders/ts/b7w10v3x12j..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0addd76c-e762-4df8-901b-8c94a9f28d00
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)
+	at managers.WebDriverManager.tearDown(WebDriverManager.java:64)
+	at tests.LoginPageTestFirefox.tearDown(LoginPageTestFirefox.java:69)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">tests.LoginPageTestChrome#launchLandingPage</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Finished Launching...</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">tests.LoginPageTestChrome#setUpChrome</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">tests.LoginPageTestChrome#testLoginPage</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Testing Login Page<br/>Passing value read from excel sheet.<br/>Passing value read from excel sheet.<br/>Click login button.<br/>Login button click completed.</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">tests.LoginPageTestFirefox#launchLandingPage</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Launching Login Page In Firefox...<br/>Finished Launching...</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">tests.LoginPageTestFirefox#setUpFirefox</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">tests.LoginPageTestFirefox#testLoginPage</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Testing Login Page<br/>Passing value read from json.<br/>Passing value read from json.<br/>Click login button.<br/>Login button click completed.</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

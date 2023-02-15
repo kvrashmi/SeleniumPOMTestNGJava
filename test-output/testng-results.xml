@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Initializing webdriver manager...]]>
+    </line>
+    <line>
+      <![CDATA[Initializing driver...]]>
+    </line>
+    <line>
+      <![CDATA[Initializing pageobject manager...]]>
+    </line>
+    <line>
+      <![CDATA[Initializing webdriver manager...]]>
+    </line>
+    <line>
+      <![CDATA[Initializing driver...]]>
+    </line>
+    <line>
+      <![CDATA[Initializing pageobject manager...]]>
+    </line>
+    <line>
+      <![CDATA[Finished Launching...]]>
+    </line>
+    <line>
+      <![CDATA[Testing Login Page]]>
+    </line>
+    <line>
+      <![CDATA[Passing value read from excel sheet.]]>
+    </line>
+    <line>
+      <![CDATA[Passing value read from excel sheet.]]>
+    </line>
+    <line>
+      <![CDATA[Click login button.]]>
+    </line>
+    <line>
+      <![CDATA[Login button click completed.]]>
+    </line>
+    <line>
+      <![CDATA[Launching Login Page In Firefox...]]>
+    </line>
+    <line>
+      <![CDATA[Finished Launching...]]>
+    </line>
+    <line>
+      <![CDATA[Testing Login Page]]>
+    </line>
+    <line>
+      <![CDATA[Passing value read from json.]]>
+    </line>
+    <line>
+      <![CDATA[Passing value read from json.]]>
+    </line>
+    <line>
+      <![CDATA[Click login button.]]>
+    </line>
+    <line>
+      <![CDATA[Login button click completed.]]>
+    </line>
+    <line>
+      <![CDATA[Closing the driver...]]>
+    </line>
+    <line>
+      <![CDATA[Quitting the driver...]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-02-15T10:19:43 CST" name="LoginPageValidation" finished-at="2023-02-15T10:19:51 CST" duration-ms="7874">
+    <groups>
+      <group name="chrome">
+        <method signature="LoginPageTestChrome.setUpChrome()[pri:0, instance:tests.LoginPageTestChrome@794cb805]" name="setUpChrome" class="tests.LoginPageTestChrome"/>
+        <method signature="LoginPageTestChrome.launchLandingPage()[pri:1, instance:tests.LoginPageTestChrome@794cb805]" name="launchLandingPage" class="tests.LoginPageTestChrome"/>
+        <method signature="LoginPageTestChrome.testLoginPage()[pri:2, instance:tests.LoginPageTestChrome@794cb805]" name="testLoginPage" class="tests.LoginPageTestChrome"/>
+      </group> <!-- chrome -->
+      <group name="firefox">
+        <method signature="LoginPageTestFirefox.setUpFirefox()[pri:0, instance:tests.LoginPageTestFirefox@7adda9cc]" name="setUpFirefox" class="tests.LoginPageTestFirefox"/>
+        <method signature="LoginPageTestFirefox.launchLandingPage()[pri:1, instance:tests.LoginPageTestFirefox@7adda9cc]" name="launchLandingPage" class="tests.LoginPageTestFirefox"/>
+        <method signature="LoginPageTestFirefox.testLoginPage()[pri:2, instance:tests.LoginPageTestFirefox@7adda9cc]" name="testLoginPage" class="tests.LoginPageTestFirefox"/>
+      </group> <!-- firefox -->
+    </groups>
+    <test started-at="2023-02-15T10:19:43 CST" name="LoginFunctionality" finished-at="2023-02-15T10:19:51 CST" duration-ms="7874">
+      <class name="tests.LoginPageTestChrome">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginPageTestChrome@794cb805]" started-at="2023-02-15T10:19:43 CST" name="setUp" finished-at="2023-02-15T10:19:43 CST" duration-ms="10" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Initializing webdriver manager...]]>
+            </line>
+            <line>
+              <![CDATA[Initializing driver...]]>
+            </line>
+            <line>
+              <![CDATA[Initializing pageobject manager...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="setUpChrome()[pri:0, instance:tests.LoginPageTestChrome@794cb805]" started-at="2023-02-15T10:19:43 CST" name="setUpChrome" finished-at="2023-02-15T10:19:46 CST" duration-ms="2771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpChrome -->
+        <test-method signature="launchLandingPage()[pri:1, instance:tests.LoginPageTestChrome@794cb805]" started-at="2023-02-15T10:19:46 CST" name="launchLandingPage" finished-at="2023-02-15T10:19:47 CST" duration-ms="711" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Finished Launching...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchLandingPage -->
+        <test-method signature="testLoginPage()[pri:2, instance:tests.LoginPageTestChrome@794cb805]" started-at="2023-02-15T10:19:47 CST" name="testLoginPage" finished-at="2023-02-15T10:19:48 CST" duration-ms="817" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Testing Login Page]]>
+            </line>
+            <line>
+              <![CDATA[Passing value read from excel sheet.]]>
+            </line>
+            <line>
+              <![CDATA[Passing value read from excel sheet.]]>
+            </line>
+            <line>
+              <![CDATA[Click login button.]]>
+            </line>
+            <line>
+              <![CDATA[Login button click completed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLoginPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginPageTestChrome@794cb805]" started-at="2023-02-15T10:19:50 CST" name="tearDown" finished-at="2023-02-15T10:19:50 CST" duration-ms="146" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Closing the driver...]]>
+            </line>
+            <line>
+              <![CDATA[Quitting the driver...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginPageTestChrome -->
+      <class name="tests.LoginPageTestFirefox">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginPageTestFirefox@7adda9cc]" started-at="2023-02-15T10:19:43 CST" name="setUp" finished-at="2023-02-15T10:19:43 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Initializing webdriver manager...]]>
+            </line>
+            <line>
+              <![CDATA[Initializing driver...]]>
+            </line>
+            <line>
+              <![CDATA[Initializing pageobject manager...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="setUpFirefox()[pri:0, instance:tests.LoginPageTestFirefox@7adda9cc]" started-at="2023-02-15T10:19:43 CST" name="setUpFirefox" finished-at="2023-02-15T10:19:48 CST" duration-ms="4916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpFirefox -->
+        <test-method signature="launchLandingPage()[pri:1, instance:tests.LoginPageTestFirefox@7adda9cc]" started-at="2023-02-15T10:19:48 CST" name="launchLandingPage" finished-at="2023-02-15T10:19:49 CST" duration-ms="1025" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Launching Login Page In Firefox...]]>
+            </line>
+            <line>
+              <![CDATA[Finished Launching...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchLandingPage -->
+        <test-method signature="testLoginPage()[pri:2, instance:tests.LoginPageTestFirefox@7adda9cc]" started-at="2023-02-15T10:19:49 CST" name="testLoginPage" finished-at="2023-02-15T10:19:50 CST" duration-ms="944" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Testing Login Page]]>
+            </line>
+            <line>
+              <![CDATA[Passing value read from json.]]>
+            </line>
+            <line>
+              <![CDATA[Passing value read from json.]]>
+            </line>
+            <line>
+              <![CDATA[Click login button.]]>
+            </line>
+            <line>
+              <![CDATA[Login button click completed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLoginPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginPageTestFirefox@7adda9cc]" started-at="2023-02-15T10:19:50 CST" name="tearDown" finished-at="2023-02-15T10:19:51 CST" duration-ms="779" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Rashmis-MacBook-Pro.local', ip: 'fe80:0:0:0:1c37:1185:e694:ace9%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6.2', java.version: '18.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230104165113, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 21.6.0, moz:processID: 1638, moz:profile: /var/folders/ts/b7w10v3x12j..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0addd76c-e762-4df8-901b-8c94a9f28d00]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Rashmis-MacBook-Pro.local', ip: 'fe80:0:0:0:1c37:1185:e694:ace9%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6.2', java.version: '18.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230104165113, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 21.6.0, moz:processID: 1638, moz:profile: /var/folders/ts/b7w10v3x12j..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0addd76c-e762-4df8-901b-8c94a9f28d00
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)
+at managers.WebDriverManager.tearDown(WebDriverManager.java:64)
+at tests.LoginPageTestFirefox.tearDown(LoginPageTestFirefox.java:69)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:644)
+at org.testng.TestRunner.afterRun(TestRunner.java:914)
+at org.testng.TestRunner.run(TestRunner.java:605)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginPageTestFirefox -->
+    </test> <!-- LoginFunctionality -->
+  </suite> <!-- LoginPageValidation -->
+</testng-results>
